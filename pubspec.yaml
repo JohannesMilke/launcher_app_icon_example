@@ -19,10 +19,10 @@ dev_dependencies:
   flutter_launcher_icons: ^0.8.1
 
 #####
-# Run with Single Command:
+# Generate App Icon with Single Command:
   # flutter clean && flutter pub get && flutter pub run flutter_launcher_icons:main
 
-# OR Run with Multiple Commands:
+# OR Generate App Icon with Multiple Commands:
   # flutter clean
   # flutter pub get
   # flutter pub run flutter_launcher_icons:main
