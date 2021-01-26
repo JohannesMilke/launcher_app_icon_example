@@ -1,0 +1,36 @@
+name: launcher_app_icon_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.8.1
+
+flutter_icons:
+  image_path_android: "assets/icon_android.png"
+  image_path_ios: "assets/icon_ios.png"
+  android: true
+  ios: true
+
+  # image_path: "assets/icon.png"
+  # android: true
+  # ios: true
+
+flutter:
+  uses-material-design: true
+
+  # not needed for flutter app icons
+  assets:
+    - assets/
